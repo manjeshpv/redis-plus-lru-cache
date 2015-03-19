@@ -31,7 +31,8 @@ module.exports = function (options) {
         set: function (key, data,callback) {
             lrucache.set(prefix + key, data);
             client.set(prefix + key, data, function () {
-                callback();
+                if (typeof callback == "function")
+                    callback();
             });
         }
     }

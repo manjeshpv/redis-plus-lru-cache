@@ -14,7 +14,7 @@ var lruCachePlusRedis = {
         port: 6379,
         servers: '192.168.59.103'
     },
-    prefix: "hapi_test_"
+    prefix: "rplc_test_"
 }
 
 
