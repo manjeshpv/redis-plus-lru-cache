@@ -1,0 +1,34 @@
+{
+  "name": "redis-plus-lru-cache",
+  "version": "0.0.2",
+  "description": "LRU Cache & Redis Middleware",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/manjeshpv/redis-plus-lru-cache.git"
+  },
+  "keywords": [
+    "LRU",
+    "Cache",
+    "Redis",
+    "In-memory"
+  ],
+  "author": "Manjesh V <manjeshpv@gmail.com> (http://manjeshpv.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manjeshpv/redis-plus-lru-cache/issues"
+  },
+  "homepage": "https://github.com/manjeshpv/redis-plus-lru-cache",
+  "dependencies": {
+    "lru-cache": "^2.5.0",
+    "redis": "^0.12.1",
+    "redis-jsonify": "0.0.4"
+  },
+  "devDependencies": {
+    "chai": "^2.1.2",
+    "mocha": "^2.2.1"
+  }
+}
